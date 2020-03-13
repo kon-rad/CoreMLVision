@@ -8,7 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+    
+    private var imagePicker = UIImagePickerController()
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

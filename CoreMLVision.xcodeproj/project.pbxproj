@@ -13,6 +13,7 @@
 		FAC6B377241B426F00F6AF59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC6B375241B426F00F6AF59 /* Main.storyboard */; };
 		FAC6B379241B427100F6AF59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC6B378241B427100F6AF59 /* Assets.xcassets */; };
 		FAC6B37C241B427100F6AF59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC6B37A241B427100F6AF59 /* LaunchScreen.storyboard */; };
+		FAC6B384241B42CA00F6AF59 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B383241B42CA00F6AF59 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FAC6B378241B427100F6AF59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC6B37B241B427100F6AF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC6B37D241B427100F6AF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC6B383241B42CA00F6AF59 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FAC6B36E241B426F00F6AF59 /* CoreMLVision */ = {
 			isa = PBXGroup;
 			children = (
+				FAC6B383241B42CA00F6AF59 /* GoogLeNetPlaces.mlmodel */,
 				FAC6B36F241B426F00F6AF59 /* AppDelegate.swift */,
 				FAC6B371241B426F00F6AF59 /* SceneDelegate.swift */,
 				FAC6B373241B426F00F6AF59 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				FAC6B374241B426F00F6AF59 /* ViewController.swift in Sources */,
 				FAC6B370241B426F00F6AF59 /* AppDelegate.swift in Sources */,
 				FAC6B372241B426F00F6AF59 /* SceneDelegate.swift in Sources */,
+				FAC6B384241B42CA00F6AF59 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
