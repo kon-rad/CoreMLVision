@@ -26,7 +26,6 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         
         self.imagePicker.sourceType = .photoLibrary
         self.imagePicker.delegate = self
-        print("view did load")
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -81,7 +80,6 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     }
 
     @IBAction func openPhotoLibraryButtonPressed(_ sender: Any) {
-        print("openPhotoLibraryButtonPressed!")
         
         self.present(self.imagePicker, animated: true, completion: nil)
     }
